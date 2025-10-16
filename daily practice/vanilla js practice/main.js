@@ -773,4 +773,12 @@ async function mocApi() {
     }
 }
 
-mocApi()
+// mocApi()
+
+//////////////////////////////////////////////////////////////////
+
+
+import {add , sub , me} from "./functions/mathFunction.js"
+
+console.log(`Addition : ${add(25,85)} \n Subtraction : ${sub(25,85)} \n`)
+console.log(me)
